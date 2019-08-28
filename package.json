@@ -1,0 +1,27 @@
+{
+  "name": "select-prop",
+  "version": "1.0.1",
+  "description": "A selector for object properties - for dealing with large data objects where access should be dynamic, easy, and intuitive",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theLAZYmd/select-prop.git"
+  },
+  "keywords": [
+    "node",
+    "javascript",
+    "object",
+    "select",
+    "arrays",
+    "selector"
+  ],
+  "author": "theLAZYmd",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/theLAZYmd/select-prop/issues"
+  },
+  "homepage": "https://github.com/theLAZYmd/select-prop#readme"
+}
