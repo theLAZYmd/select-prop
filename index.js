@@ -32,8 +32,8 @@ function select_prop (obj, path) {
 				}
 			}
 		}
-		if (acc[curr]) return acc[curr];
-		return null;
+		if (acc === null || acc === undefined || acc[curr] === null || acc[curr] === undefined) return null;
+		return acc[curr];
 	}, obj);
 	if (arr.length) return arr;
 	else return res;
